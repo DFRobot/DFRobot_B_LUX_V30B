@@ -61,7 +61,7 @@ To use this library, first download the library file, paste it into the \Arduino
 | Arduino uno   |     √     |            |          |         |
 | Mega2560      |     √     |            |          |         |
 | Leonardo      |           |            |          |         |
-| mPython/ESP32 |     √     |            |          |         |
+| ESP32         |     √     |            |          |         |
 |               |           |            |          |         |
 
 
