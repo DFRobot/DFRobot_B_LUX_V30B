@@ -1,0 +1,39 @@
+﻿#######################################
+# Syntax Coloring Map For DFRobot_Sensor
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_B_LUX_V30B	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+lightStrengthLux	KEYWORD2
+setMode	KEYWORD2
+readMode	KEYWORD2
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+eAutomatic	LITERAL1
+eManual	LITERAL1
+eCDR_0	LITERAL1
+eCDR_1	LITERAL1
+eTime800ms	LITERAL1
+eTime400ms	LITERAL1
+eTime200ms	LITERAL1
+eTime100ms	LITERAL1
+eTime50ms	LITERAL1 
+eTime25ms	LITERAL1 
+eTime12_5ms	LITERAL1
+eTime6_25ms	LITERAL1
+
+
