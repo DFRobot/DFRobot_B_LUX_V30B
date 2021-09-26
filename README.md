@@ -1,8 +1,11 @@
 # DFRobot_B_LUX_V30B
-- This is a sensor that gets the intensity of light.
-- It uses IIC to transmit the collected data, and its IIC address cannot be changed.
-- You can write the desired configuration to the configuration register(address:0x04), setting different acquisition accuracy.
-- You can read the light intensity data from the data register(address:0x00~0x03).
+- [中文版](./README_CN.md)
+This new ambient light sensor is packaged in a transparent semisphere case that offers better light gathering power. The sensor supports 0-200klx detection range and I2C communication. The on-chip photodiode’s spectral response is optimized to mimic the human eye’s perception of ambient light and incorporates IR and UV blocking capability. The adaptive gain block automatically selects the correct lux range to optimize the counts/lux. It is ideal for applications such as smartphones, vehicle smart light, intelligent incubator, etc.
+
+![](./resources/images/SEN0390.png)
+
+## Mall Link (https://www.dfrobot.com/product-2183.html)
+    SKU :SEN0390
 
 ## Table of Contents
 
@@ -11,6 +14,12 @@
 * [Compatibility](#compatibility)
 * [History](#history)
 * [Credits](#credits)
+
+## Summary
+- This is a sensor that gets the intensity of light.
+- It uses IIC to transmit the collected data, and its IIC address cannot be changed.
+- You can write the desired configuration to the configuration register(address:0x04), setting different acquisition accuracy.
+- You can read the light intensity data from the data register(address:0x00~0x03).
 
 ## Installation
 
@@ -60,9 +69,8 @@ To use this library, first download the library file, paste it into the \Arduino
 | ------------- | :-------: | :--------: | :------: | ------- |
 | Arduino uno   |     √     |            |          |         |
 | Mega2560      |     √     |            |          |         |
-| Leonardo      |           |            |          |         |
 | ESP32         |     √     |            |          |         |
-|               |           |            |          |         |
+
 
 
 ## History

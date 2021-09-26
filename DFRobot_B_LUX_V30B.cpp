@@ -99,7 +99,7 @@ void DFRobot_B_LUX_V30B::iicStartBit()
 void DFRobot_B_LUX_V30B::iicStopBit()
 {
   digitalWrite(_SCL,HIGH);
-  digitalWrite(SDA,LOW);
+  digitalWrite(_SDA,LOW);
   delayMicroseconds(5);
   digitalWrite(_SDA,HIGH);
   delayMicroseconds(5);
@@ -109,7 +109,7 @@ void DFRobot_B_LUX_V30B::iicStopBit()
 
 void DFRobot_B_LUX_V30B::iicSendAck(uint8_t ack)
 {
-  pinMode(SDA,OUTPUT);
+  pinMode(_SDA,OUTPUT);
   if(ack & 0x01 ){/*ack=0,send ACK，ack=1,send NACK*/
     digitalWrite(_SDA,HIGH);
   }else{
