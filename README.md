@@ -82,5 +82,5 @@ To use this library, first download the library file, paste it into the \Arduino
 
 ## Credits
 
-Written by Fary(fary_young@outlook.com), 2020. (Welcome to our [website](https://www.dfrobot.com/))
+Written by yangfeng(feng.yang@dfrobot.com), 2020. (Welcome to our [website](https://www.dfrobot.com/))
 
