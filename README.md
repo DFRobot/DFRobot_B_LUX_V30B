@@ -5,7 +5,7 @@ This new ambient light sensor is packaged in a transparent semisphere case that 
 
 ![](./resources/images/SEN0390.png)
 
-## Mall Link (https://www.dfrobot.com/product-2183.html)
+## Product Link (https://www.dfrobot.com/product-2183.html)
     SKU :SEN0390
 
 ## Table of Contents
